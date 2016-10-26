@@ -1,0 +1,79 @@
+.header {
+    margin: 20px 20px 0 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #cccccc solid;
+}
+.todoList {
+    width: 350px;
+    min-height: 300px;
+    display: inline-block;
+    border: 1px #ccc solid;
+    padding: 20px 20px 20px 40px;
+    margin: 20px;
+    vertical-align: top;
+    position: relative;
+}
+.todoList ul {
+    margin: 0;
+    padding: 0;
+}
+.todoList li {
+    padding: 6px 0;
+}
+.todoList li.task {
+    position: relative;
+    padding-right: 95px;
+}
+.todoList li.task.isImportant {
+    background: yellow;
+}
+.todoList li .taskBtns {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.topListButton {
+    list-style: none;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.bottomListButton {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.noLists {
+    display: block;
+    padding: 20px;
+}
+.todoList .noLists {
+    padding: 20px 0;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff;
+    left: 0;
+    top: 0;
+}
+.popWrapper {
+    padding: 20px;
+}
+.popWrapper div {
+    margin: 10px 0 30px;
+}
+.popWrapper label {
+    margin-left: 5px;
+}
+.popWrapper button {
+    margin-right: 10px;
+}
+.popWrapper textarea {
+    width: 360px;
+    height: 100px;
+}
+.selectBox {
+    float: right;
+}

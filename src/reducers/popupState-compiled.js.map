@@ -1,0 +1,1 @@
+{"version":3,"sources":["popupState.js"],"names":[],"mappings":";;;;;kBAAwB,U;AAAT,SAAS,UAAT,GAAwC;AAAA,QAApB,KAAoB,uEAAZ,EAAY;AAAA,QAAR,MAAQ;;AACnD,WAAO,KAAP;AACH;;;;;;;;kCAFuB,U","file":"popupState-compiled.js","sourcesContent":["export default function popupState(state = {}, action) {\n    return state;\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["newid.js"],"names":[],"mappings":";;;;;AAAA,IAAI,SAAS,CAAb;;eAEe,oBAAuB;AAAA,QAAd,MAAc,uEAAP,KAAO;;AAClC;AACA,gBAAU,MAAV,GAAmB,MAAnB;AACH,C;;;;;;;;;;kCALG,M","file":"newid-compiled.js","sourcesContent":["let lastId = 0;\n\nexport default function(prefix='uid') {\n    lastId++;\n    return `${prefix}${lastId}`;\n}\n"]}
